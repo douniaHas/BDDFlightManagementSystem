@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84cefd91-b46b-44a9-b41d-58d27c24875e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aTjGU8FxHt6knAptA08ToeWBWZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="FlightManagement" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FlightsManagmentSystemTest">
+    <configuration name="DumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BDDFlightsManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DumTest.testingHelloword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BDDFlightsManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DumTest" />
+      <option name="METHOD_NAME" value="testingHelloword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightsManagmentSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BDDFlightsManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightsManagmentSystemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightsManagmentSystemTest.should_add_usual_passenger_to_economy_flight_and_remove_it" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BDDFlightsManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightsManagmentSystemTest" />
+      <option name="METHOD_NAME" value="should_add_usual_passenger_to_economy_flight_and_remove_it" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FlightsManagmentSystemTest" />
+        <item itemvalue="JUnit.FlightsManagmentSystemTest.should_add_usual_passenger_to_economy_flight_and_remove_it" />
+        <item itemvalue="JUnit.DumTest.testingHelloword" />
+        <item itemvalue="JUnit.DumTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84cefd91-b46b-44a9-b41d-58d27c24875e" name="Default Changelist" comment="" />
+      <created>1586766381408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586766381408</updated>
+      <workItem from="1586766385451" duration="4066000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="62" key="#com.intellij.ide.util.MemberChooser" timestamp="1586769897910">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1586769897910" />
+    <state x="371" y="137" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586768933127">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="371" y="137" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1586768933127" />
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1586771552566">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1586771552566" />
+    <state width="1237" height="124" key="GridCell.Tab.0.bottom" timestamp="1586771406490">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="124" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586771406490" />
+    <state width="1237" height="124" key="GridCell.Tab.0.center" timestamp="1586771406490">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="124" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586771406490" />
+    <state width="1237" height="124" key="GridCell.Tab.0.left" timestamp="1586771406490">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="124" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586771406490" />
+    <state width="1237" height="124" key="GridCell.Tab.0.right" timestamp="1586771406490">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="124" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586771406490" />
+    <state x="451" y="139" key="chooseDestDirectoryDialog" timestamp="1586768931646">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="451" y="139" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1586768931646" />
+    <state x="269" y="57" width="742" height="606" key="find.popup" timestamp="1586770125025">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="269" y="57" width="742" height="606" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1586770125025" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1586766438571">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1280.720@0.0.1280.720" timestamp="1586766438571" />
+  </component>
+</project>
