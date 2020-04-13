@@ -7,6 +7,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FlightsManagmentSystemTest {
@@ -29,13 +30,17 @@ public class FlightsManagmentSystemTest {
             @DisplayName("Then you can not add him or remove him from the flight")
             @Test
             public void should_add_and_remove_usual_passenger_to_economy_flight() {
-                assertEquals("1", economyFlight.getId());
-                assertEquals(true, economyFlight.addPassenger(mike));
-                assertEquals(1, economyFlight.getPassengers().size());
-                assertEquals("Mike", economyFlight.getPassengers().get(0).getName());
+                assertAll("add mike, usual passenger",
+                        () -> assertEquals("1", economyFlight.getId()),
+                        () -> assertEquals(true, economyFlight.addPassenger(mike)),
+                        () -> assertEquals(1, economyFlight.getPassengers().size()),
+                        () -> assertEquals("Mike", economyFlight.getPassengers().get(0).getName())
+                );
 
-                assertEquals(true, economyFlight.removePassenger(mike));
-                assertEquals(0, economyFlight.getPassengers().size());
+                assertAll("remove mike, usual passenger",
+                        () -> assertEquals(true, economyFlight.removePassenger(mike)),
+                        () -> assertEquals(0, economyFlight.getPassengers().size())
+                );
             }
 
         }
@@ -47,13 +52,17 @@ public class FlightsManagmentSystemTest {
             @DisplayName("Then you can add him but not remove him from the flight")
             @Test
             public void should_add_but_not_remove_vip_passenger_from_economy_flight() {
-                assertEquals("1", economyFlight.getId());
-                assertEquals(true, economyFlight.addPassenger(john));
-                assertEquals(1, economyFlight.getPassengers().size());
-                assertEquals("John", economyFlight.getPassengers().get(0).getName());
+                assertAll("add john, VIP passenger",
+                        () -> assertEquals("1", economyFlight.getId()),
+                        () -> assertEquals(true, economyFlight.addPassenger(john)),
+                        () -> assertEquals(1, economyFlight.getPassengers().size()),
+                        () -> assertEquals("John", economyFlight.getPassengers().get(0).getName())
+                );
 
-                assertEquals(false, economyFlight.removePassenger(john));
-                assertEquals(1, economyFlight.getPassengers().size());
+                assertAll("remove john, VIP passenger",
+                        () -> assertEquals(false, economyFlight.removePassenger(john)),
+                        () -> assertEquals(1, economyFlight.getPassengers().size())
+                );
             }
 
         }
@@ -76,10 +85,15 @@ public class FlightsManagmentSystemTest {
             @DisplayName("Then you can't add him nor remove him from the flight")
             @Test
             public void should_not_add_nor_remove_usual_passenger_from_business_flight() {
-                assertEquals(false, businessFlight.addPassenger(mike));
-                assertEquals(0, businessFlight.getPassengers().size());
-                assertEquals(false, businessFlight.removePassenger(mike));
-                assertEquals(0, businessFlight.getPassengers().size());
+                assertAll("add Mike, usual passenger",
+                        () -> assertEquals(false, businessFlight.addPassenger(mike)),
+                        () -> assertEquals(0, businessFlight.getPassengers().size())
+                );
+
+                assertAll("remove Mike, usual passenger",
+                        () -> assertEquals(false, businessFlight.removePassenger(mike)),
+                        () -> assertEquals(0, businessFlight.getPassengers().size())
+                );
             }
         }
 
@@ -90,10 +104,15 @@ public class FlightsManagmentSystemTest {
             @DisplayName("Then you can add him but not remove him from the flight")
             @Test
             public void should_add_but_not_remove_vip_passenger_to_business_flight() {
-                assertEquals(true, businessFlight.addPassenger(john));
-                assertEquals(1, businessFlight.getPassengers().size());
-                assertEquals(false, businessFlight.removePassenger(john));
-                assertEquals(1, businessFlight.getPassengers().size());
+                assertAll("add John, VIP passenger",
+                        () -> assertEquals(true, businessFlight.addPassenger(john)),
+                        () -> assertEquals(1, businessFlight.getPassengers().size())
+                );
+
+                assertAll("remove John, VIP passenger",
+                        () -> assertEquals(false, businessFlight.removePassenger(john)),
+                        () -> assertEquals(1, businessFlight.getPassengers().size())
+                );
             }
         }
 
