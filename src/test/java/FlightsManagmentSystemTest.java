@@ -9,55 +9,55 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FlightsManagmentSystemTest {
 
     @Test
-    public void should_add_usual_passenger_to_economy_flight_and_remove_it() {
+    public void should_add_and_remove_usual_passenger_to_economy_flight() {
         Flight economyFlight = new EconomyFlight("1");
         Passenger mike = new Passenger("Mike", false);
 
         assertEquals("1", economyFlight.getId());
-        assertEquals(true, ((EconomyFlight) economyFlight).addPassenger(mike));
+        assertEquals(true, economyFlight.addPassenger(mike));
         assertEquals(1, economyFlight.getPassengers().size());
         assertEquals("Mike", economyFlight.getPassengers().get(0).getName());
 
-        assertEquals(true, ((EconomyFlight) economyFlight).removePassenger(mike));
+        assertEquals(true, economyFlight.removePassenger(mike));
         assertEquals(0, economyFlight.getPassengers().size());
     }
 
     @Test
-    public void testEconomyFlightVipPassenger() {
+    public void should_add_but_not_remove_vip_passenger_from_economy_flight() {
         Flight economyFlight = new EconomyFlight("1");
         Passenger john = new Passenger("John", true);
 
         assertEquals("1", economyFlight.getId());
-        assertEquals(true, ((EconomyFlight) economyFlight).addPassenger(john));
+        assertEquals(true, economyFlight.addPassenger(john));
         assertEquals(1, economyFlight.getPassengers().size());
         assertEquals("John", economyFlight.getPassengers().get(0).getName());
 
-        assertEquals(false, ((EconomyFlight) economyFlight).removePassenger(john));
+        assertEquals(false, economyFlight.removePassenger(john));
         assertEquals(1, economyFlight.getPassengers().size());
     }
 
     @Test
-    public void testBusinessFlightUsualPassenger() {
+    public void should_not_add_nor_remove_usual_passenger_from_business_flight() {
         Flight businessFlight = new BusinessFlight("2");
 
         Passenger mike = new Passenger("Mike", false);
 
-        assertEquals(false, ((BusinessFlight) businessFlight).addPassenger(mike));
+        assertEquals(false, businessFlight.addPassenger(mike));
         assertEquals(0, businessFlight.getPassengers().size());
-        assertEquals(false, ((BusinessFlight) businessFlight).removePassenger(mike));
+        assertEquals(false, businessFlight.removePassenger(mike));
         assertEquals(0, businessFlight.getPassengers().size());
 
     }
-//TODO : why cast businessFlight.addPassenger(john) ?
+
     @Test
-    public void testBusinessFlightVipPassenger() {
+    public void should_add_but_not_remove_vip_passenger_to_business_flight() {
         Flight businessFlight = new BusinessFlight("2");
 
         Passenger john = new Passenger("John", true);
 
-        assertEquals(true, ((BusinessFlight) businessFlight).addPassenger(john));
+        assertEquals(true, businessFlight.addPassenger(john));
         assertEquals(1, businessFlight.getPassengers().size());
-        assertEquals(false, ((BusinessFlight) businessFlight).removePassenger(john));
+        assertEquals(false, businessFlight.removePassenger(john));
         assertEquals(1, businessFlight.getPassengers().size());
 
     }

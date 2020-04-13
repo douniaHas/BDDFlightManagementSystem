@@ -7,8 +7,8 @@ public abstract class Flight {
     private String id;
     private List<Passenger> passengers = new ArrayList<>();
 
-    protected abstract boolean addPassenger(Passenger passenger);
-    protected abstract boolean removePassenger(Passenger passenger);
+    public abstract boolean addPassenger(Passenger passenger);
+    public abstract boolean removePassenger(Passenger passenger);
 
     public Flight(String id) {
         this.id = id;
