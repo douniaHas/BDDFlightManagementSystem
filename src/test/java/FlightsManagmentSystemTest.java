@@ -2,9 +2,9 @@ import FlightManagement.BusinessFlight;
 import FlightManagement.EconomyFlight;
 import FlightManagement.Flight;
 import FlightManagement.Passenger;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FlightsManagmentSystemTest {
 

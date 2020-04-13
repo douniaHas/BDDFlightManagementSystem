@@ -1,0 +1,1 @@
+Resultats de la couverture de code : target/site/jacoco/FlightManagement/*.html
