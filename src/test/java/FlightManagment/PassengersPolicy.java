@@ -1,9 +1,6 @@
 package FlightManagment;
 
-import FlightManagement.BusinessFlight;
-import FlightManagement.EconomyFlight;
-import FlightManagement.Flight;
-import FlightManagement.Passenger;
+import FlightManagement.*;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -16,6 +13,7 @@ public class PassengersPolicy {
     private Flight businessFlight;
     private Passenger mike;
     private Passenger john;
+    private PremiumFlight premiumFlight;
 
     @Given("^there is an economy flight$")
     public void thereIsAnEconomyFlight() throws Throwable {
@@ -78,6 +76,31 @@ public class PassengersPolicy {
                 () -> assertEquals(1, businessFlight.getPassengers().size()),
                 () -> assertEquals(false, businessFlight.removePassenger(john)),
                 () -> assertEquals(1, businessFlight.getPassengers().size())
+        );
+    }
+
+    @Given("^There is a premium flight$")
+    public void thereIsAPremiumFlight() {
+        premiumFlight = new PremiumFlight("3");
+    }
+
+    @Then("^you cannot add or remove him from a premium flight$")
+    public void youCannotAddOrRemoveHimFromAPremiumFlight() {
+        assertAll("Verify all conditions for a usual passenger and a premium flight",
+                () -> assertEquals(false, premiumFlight.addPassenger(mike)),
+                () -> assertEquals(0, premiumFlight.getPassengers().size()),
+                () -> assertEquals(false, premiumFlight.removePassenger(mike)),
+                () -> assertEquals(0, premiumFlight.getPassengers().size())
+        );
+    }
+
+    @Then("^you can add him and remove him from a premium flight$")
+    public void youCanAddHimAndRemoveHimFromAPremiumFlight() {
+        assertAll("Verify all conditions for a usual passenger and a premium flight",
+                () -> assertEquals(true, premiumFlight.addPassenger(john)),
+                () -> assertEquals(1, premiumFlight.getPassengers().size()),
+                () -> assertEquals(true, premiumFlight.removePassenger(john)),
+                () -> assertEquals(0, premiumFlight.getPassengers().size())
         );
     }
 }
