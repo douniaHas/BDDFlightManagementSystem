@@ -1,3 +1,5 @@
+package FlightManagment;
+
 import FlightManagement.BusinessFlight;
 import FlightManagement.EconomyFlight;
 import FlightManagement.Flight;
