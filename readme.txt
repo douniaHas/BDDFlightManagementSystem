@@ -13,8 +13,11 @@ On lui dit que le resultat se fait au niveau de la console et on lui indique le 
 de test a executer (dans notre cas PassengersPolicy)
 - Run passengersPolicyStory
 - Si vous avez des erreurs du type : org.jbehave.core.io.StoryResourceNotFound: Story path 'airport/passenger_policy_story.story' not found
-c'est que vous avez probablement fait une typo dans le nom des fichiers. 
+c'est que vous avez probablement fait une typo dans le nom des fichiers.
 ex  : passengers_policy_story.story et PassengerPolicyStory qui contient la conf
+
+- Vous pouvez visualiser les resultats dans /target/jbehave/passengers_policy_story.html (sinon il y a d'autres formats disponibles)
+- Run with code coverage pour verifier qu'on est toujours a 100%
 
 
 

@@ -2,28 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84cefd91-b46b-44a9-b41d-58d27c24875e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PassengersPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PassengersPolicyStory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BDDFlightsManagementSystem-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/BDDFlightsManagementSystem-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/BusinessFlight.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/BusinessFlight.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/EconomyFlight.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/EconomyFlight.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Flight.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Flight.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Passenger.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Passenger.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-04-13T20-13-19_653-jvmRun1.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-04-13T20-13-19_653.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BDDFlightsManagementSystem-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/airport.passengers_policy_story.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/airport.passengers_policy_story.stats" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/airport.passengers_policy_story.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/airport.passengers_policy_story.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/passengers_policy_story.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/passengers_policy_story.stats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/storyDurations.props" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/airport.passengers_policy_story.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/airport.passengers_policy_story.stats.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/airport.passengers_policy_story.txt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/airport.passengers_policy_story.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/passengers_policy_story.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/passengers_policy_story.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/BusinessFlight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/BusinessFlight.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/EconomyFlight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/EconomyFlight.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Flight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Flight.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Passenger.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Passenger.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest$BusinessFlightTest$UsualPassenger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest$BusinessFlightTest$VIPPassenger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest$BusinessFlightTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest$EconomyFlightTest$UsualPassenger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest$EconomyFlightTest$VIPPassenger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest$EconomyFlightTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest$BusinessFlightTest$UsualPassenger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest$BusinessFlightTest$VIPPassenger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest$BusinessFlightTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest$EconomyFlightTest$UsualPassenger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest$EconomyFlightTest$VIPPassenger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest$EconomyFlightTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-airport.FlightsManagmentSystemTest$BusinessFlightTest$UsualPassenger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-airport.FlightsManagmentSystemTest$BusinessFlightTest$VIPPassenger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-airport.FlightsManagmentSystemTest$BusinessFlightTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-airport.FlightsManagmentSystemTest$EconomyFlightTest$UsualPassenger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-airport.FlightsManagmentSystemTest$EconomyFlightTest$VIPPassenger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-airport.FlightsManagmentSystemTest$EconomyFlightTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-airport.FlightsManagmentSystemTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/airport.FlightsManagmentSystemTest$BusinessFlightTest$UsualPassenger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/airport.FlightsManagmentSystemTest$BusinessFlightTest$VIPPassenger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/airport.FlightsManagmentSystemTest$BusinessFlightTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/airport.FlightsManagmentSystemTest$EconomyFlightTest$UsualPassenger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/airport.FlightsManagmentSystemTest$EconomyFlightTest$VIPPassenger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/airport.FlightsManagmentSystemTest$EconomyFlightTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/airport.FlightsManagmentSystemTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/BDDFlightsManagementSystem.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +218,7 @@
       <workItem from="1586766385451" duration="12969000" />
       <workItem from="1586877270184" duration="635000" />
       <workItem from="1586877926532" duration="75000" />
-      <workItem from="1586878019975" duration="4259000" />
+      <workItem from="1586878019975" duration="5405000" />
     </task>
     <servers />
   </component>
@@ -186,22 +253,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1586771552566" />
-    <state width="1237" height="118" key="GridCell.Tab.0.bottom" timestamp="1586882168045">
+    <state width="1237" height="141" key="GridCell.Tab.0.bottom" timestamp="1586882858174">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="118" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586882168045" />
-    <state width="1237" height="118" key="GridCell.Tab.0.center" timestamp="1586882168045">
+    <state width="1237" height="141" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586882858174" />
+    <state width="1237" height="141" key="GridCell.Tab.0.center" timestamp="1586882858174">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="118" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586882168045" />
-    <state width="1237" height="118" key="GridCell.Tab.0.left" timestamp="1586882168045">
+    <state width="1237" height="141" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586882858174" />
+    <state width="1237" height="141" key="GridCell.Tab.0.left" timestamp="1586882858174">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="118" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586882168045" />
-    <state width="1237" height="118" key="GridCell.Tab.0.right" timestamp="1586882168045">
+    <state width="1237" height="141" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586882858174" />
+    <state width="1237" height="141" key="GridCell.Tab.0.right" timestamp="1586882858174">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="118" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586882168045" />
+    <state width="1237" height="141" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586882858174" />
     <state x="142" y="3" key="SettingsEditor" timestamp="1586878001594">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -226,5 +293,8 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1586809391932" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BDDFlightsManagementSystem$PassengersPolicyStory.ic" NAME="PassengersPolicyStory Coverage Results" MODIFIED="1586882858143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
