@@ -8,6 +8,11 @@ Feature: bonus policy
     Examples:
       | mileage1 | mileage2 | mileage3 | points |
       | 430      | 220      | 670      | 66     |
+      |     349 |     319 |    623 |     64 |
+      |     312 |     356 |    135 |     40 |
+      |     223 |     786 |    503 |     75 |
+      |     482 |      98 |    591 |     58 |
+      |     128 |     176 |    304 |     30 |
 
   Scenario Outline: VIP passenger bonus policy
     Given There is a VIP passenger with a mileage
@@ -16,4 +21,9 @@ Feature: bonus policy
     Examples:
       | mileage1 | mileage2 | mileage3 | points |
       | 430      | 220      | 670      | 132    |
+      |     349 |     319 |    623 |     129 |
+      |     312 |     356 |    135 |      80 |
+      |     223 |     786 |    503 |     151 |
+      |     482 |      98 |    591 |     117 |
+      |     128 |     176 |    304 |      60 |
 
