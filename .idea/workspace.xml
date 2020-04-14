@@ -2,82 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84cefd91-b46b-44a9-b41d-58d27c24875e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FlightManagement/PremiumFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FlightManagement/Mileage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FlightManagment/BonusPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/bonus_policy.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlightManagment/FlightsManagmentSystemTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlightManagment/PassengersPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightManagment/PassengersPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/passengers_policy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/passengers_policy.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BDDFlightsManagementSystem-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/BusinessFlight.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/BusinessFlight.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/EconomyFlight.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/EconomyFlight.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Flight.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Flight.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Passenger.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Passenger.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-04-13T20-13-19_653-jvmRun1.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-04-13T20-13-19_653.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest$BusinessFlightTest$UsualPassenger.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest$BusinessFlightTest$VIPPassenger.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest$BusinessFlightTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest$EconomyFlightTest$UsualPassenger.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest$EconomyFlightTest$VIPPassenger.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest$EconomyFlightTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest$BusinessFlightTest$UsualPassenger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest$BusinessFlightTest$VIPPassenger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest$BusinessFlightTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest$EconomyFlightTest$UsualPassenger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest$EconomyFlightTest$VIPPassenger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest$EconomyFlightTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightManagment/FlightsManagmentSystemTest$BusinessFlightTest$UsualPassenger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightManagment/FlightsManagmentSystemTest$BusinessFlightTest$VIPPassenger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightManagment/FlightsManagmentSystemTest$BusinessFlightTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightManagment/FlightsManagmentSystemTest$EconomyFlightTest$UsualPassenger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightManagment/FlightsManagmentSystemTest$EconomyFlightTest$VIPPassenger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightManagment/FlightsManagmentSystemTest$EconomyFlightTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightManagment/FlightsManagmentSystemTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightManagment/PassengerPolicy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/BDDFlightsManagementSystem.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/passengers_policy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/passengers_policy.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="15" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,6 +67,23 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CucumberTest">
+    <configuration name="Feature: bonus_policy" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/bonus_policy.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="BDDFlightsManagementSystem" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: bonus_policy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: passenger_policy" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/passenger_policy.feature" />
@@ -171,15 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightsManagmentSystemTest$BusinessFlightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BDDFlightsManagementSystem" />
-      <option name="PACKAGE_NAME" value="FlightManagment" />
-      <option name="MAIN_CLASS_NAME" value="FlightManagment.FlightsManagmentSystemTest$BusinessFlightTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FlightsManagmentSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BDDFlightsManagementSystem" />
       <option name="PACKAGE_NAME" value="FlightManagment" />
@@ -192,10 +140,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CucumberTest" />
+        <item itemvalue="Cucumber java.Feature: bonus_policy" />
         <item itemvalue="Cucumber java.Feature: passengers_policy" />
         <item itemvalue="Cucumber java.Feature: passenger_policy" />
         <item itemvalue="JUnit.FlightsManagmentSystemTest" />
-        <item itemvalue="JUnit.FlightsManagmentSystemTest$BusinessFlightTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586766381408</updated>
-      <workItem from="1586766385451" duration="23417000" />
+      <workItem from="1586766385451" duration="29071000" />
     </task>
     <servers />
   </component>
@@ -244,26 +192,46 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="371" y="137" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1586768933127" />
+    <state width="500" height="438" key="DebuggerActiveHint" timestamp="1586860567561">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="500" height="438" key="DebuggerActiveHint/0.0.1280.720@0.0.1280.720" timestamp="1586860567561" />
     <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1586845715653">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1586845715653" />
-    <state width="1237" height="341" key="GridCell.Tab.0.bottom" timestamp="1586855219666">
+    <state width="1237" height="108" key="GridCell.Tab.0.bottom" timestamp="1586860816671">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="341" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586855219666" />
-    <state width="1237" height="341" key="GridCell.Tab.0.center" timestamp="1586855219666">
+    <state width="1237" height="108" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586860816671" />
+    <state width="1237" height="108" key="GridCell.Tab.0.center" timestamp="1586860816671">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="341" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586855219666" />
-    <state width="1237" height="341" key="GridCell.Tab.0.left" timestamp="1586855219666">
+    <state width="1237" height="108" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586860816671" />
+    <state width="1237" height="108" key="GridCell.Tab.0.left" timestamp="1586860816671">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="341" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586855219666" />
-    <state width="1237" height="341" key="GridCell.Tab.0.right" timestamp="1586855219666">
+    <state width="1237" height="108" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586860816671" />
+    <state width="1237" height="108" key="GridCell.Tab.0.right" timestamp="1586860816671">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="341" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586855219666" />
+    <state width="1237" height="108" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586860816671" />
+    <state width="1237" height="167" key="GridCell.Tab.1.bottom" timestamp="1586860758261">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="167" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586860758261" />
+    <state width="1237" height="167" key="GridCell.Tab.1.center" timestamp="1586860758261">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="167" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1586860758261" />
+    <state width="1237" height="167" key="GridCell.Tab.1.left" timestamp="1586860758261">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="167" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1586860758261" />
+    <state width="1237" height="167" key="GridCell.Tab.1.right" timestamp="1586860758261">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="167" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1586860758261" />
     <state x="142" y="3" key="SettingsEditor" timestamp="1586814728748">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -284,16 +252,20 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1280.720@0.0.1280.720" timestamp="1586766438571" />
-    <state x="394" y="282" width="496" height="156" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1586845746629">
+    <state x="394" y="282" width="496" height="156" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1586857461924">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="394" y="282" width="496" height="156" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1280.720@0.0.1280.720" timestamp="1586845746629" />
+    <state x="394" y="282" width="496" height="156" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1280.720@0.0.1280.720" timestamp="1586857461924" />
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1586858038775">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.720@0.0.1280.720" timestamp="1586858038775" />
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1586809391932">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1586809391932" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BDDFlightsManagementSystem$CucumberTest.ic" NAME="CucumberTest Coverage Results" MODIFIED="1586855219650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BDDFlightsManagementSystem$CucumberTest.ic" NAME="CucumberTest Coverage Results" MODIFIED="1586860816640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

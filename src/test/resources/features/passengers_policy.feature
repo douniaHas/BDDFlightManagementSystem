@@ -31,3 +31,4 @@ Feature: Passengers Policy
     Given There is a premium flight
     When we have a usual passenger
     Then you cannot add or remove him from a premium flight
+

@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+BDDFlightsManagementSystem,FlightManagement,BusinessFlight,16,0,2,0,6,0,4,0,3,0
+BDDFlightsManagementSystem,FlightManagement,PremiumFlight,24,0,4,0,8,0,5,0,3,0
+BDDFlightsManagementSystem,FlightManagement,Passenger,15,0,0,0,6,0,3,0,3,0
+BDDFlightsManagementSystem,FlightManagement,EconomyFlight,19,0,2,0,6,0,4,0,3,0
+BDDFlightsManagementSystem,FlightManagement,Flight,17,0,0,0,6,0,3,0,3,0
+BDDFlightsManagementSystem,FlightManagement,Mileage,60,0,4,0,11,0,6,0,4,0

@@ -10,3 +10,10 @@ Creer les features :
 -   Ajouter un fichier xx.feature ou vous definissez les features en style Gherkin
 -   Creer le fichier CucumberTest avec le template fourni, le test Cucumber execute tous les tests qui sont dans le
 meme package
+-   Creer la feature dans xx.feature
+-   run CucumberTest -> KO
+-   On retourne sur xx.feature. Intellij nous propose de creer les steps manquants dans le fichier de tests BDD
+-   On les rajoute puis run -> KO
+-   On rajoute le code en TDD jusqu'à avoir tous les tests qui passent
+-   On verifie que la couverture de code est de 100%
+
