@@ -23,6 +23,11 @@
             <version>5.0.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.jbehave</groupId>
+            <artifactId>jbehave-core</artifactId>
+            <version>4.6.3</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -76,6 +81,26 @@
                                 </rule>
                             </rules>
                         </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.jbehave</groupId>
+                <artifactId>jbehave-maven-plugin</artifactId>
+                <version>4.3.5</version>
+                <executions>
+                    <execution>
+                        <id>run-stories</id>
+                        <phase>integration-test</phase>
+                        <configuration>
+                            <includes>
+                                <include>**/*PassengersPolicyScenario.java</include>
+                            </includes>
+                            <scope>test</scope>
+                        </configuration>
+                        <goals>
+                            <goal>run-stories-as-embeddables</goal>
+                        </goals>
                     </execution>
                 </executions>
             </plugin>

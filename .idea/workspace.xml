@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84cefd91-b46b-44a9-b41d-58d27c24875e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PassengersPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PassengersPolicyStory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlightsManagmentSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightsManagmentSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BDDFlightsManagementSystem-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/BDDFlightsManagementSystem-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/BusinessFlight.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/BusinessFlight.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/EconomyFlight.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/EconomyFlight.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Flight.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Flight.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Passenger.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Passenger.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-04-13T20-13-19_653-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-04-13T20-13-19_653.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/FlightsManagmentSystemTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-FlightsManagmentSystemTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JBehave Story" />
         <option value="Class" />
       </list>
     </option>
@@ -44,23 +65,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dounia\Documents\BDDFlightsManagementSystem\src\test\resources" />
+      <recent name="C:\Users\dounia\Documents\BDDFlightsManagementSystem\src\test\resources\tech" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="airport" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="FlightManagement" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FlightsManagmentSystemTest">
-    <configuration name="DumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BDDFlightsManagementSystem" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PassengersPolicyStory">
     <configuration name="DumTest.testingHelloword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BDDFlightsManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,13 +119,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PassengersPolicyStory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BDDFlightsManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PassengersPolicyStory" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PassengersPolicyStory" />
         <item itemvalue="JUnit.FlightsManagmentSystemTest" />
         <item itemvalue="JUnit.FlightsManagmentSystemTest$BusinessFlightTest" />
         <item itemvalue="JUnit.FlightsManagmentSystemTest.should_add_usual_passenger_to_economy_flight_and_remove_it" />
         <item itemvalue="JUnit.DumTest.testingHelloword" />
-        <item itemvalue="JUnit.DumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -120,6 +149,9 @@
       <option name="presentableId" value="Default" />
       <updated>1586766381408</updated>
       <workItem from="1586766385451" duration="12969000" />
+      <workItem from="1586877270184" duration="635000" />
+      <workItem from="1586877926532" duration="75000" />
+      <workItem from="1586878019975" duration="4259000" />
     </task>
     <servers />
   </component>
@@ -138,42 +170,54 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="446" y="62" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1586769897910" />
-    <state x="371" y="137" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586768933127">
+    <state x="371" y="137" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586882111626">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="371" y="137" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1586768933127" />
+    <state x="371" y="137" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1586882111626" />
+    <state x="371" y="145" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586880543361">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="371" y="145" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1586880543361" />
+    <state x="438" y="220" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586882132617">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="438" y="220" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720@0.0.1280.720" timestamp="1586882132617" />
     <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1586771552566">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1586771552566" />
-    <state width="1237" height="136" key="GridCell.Tab.0.bottom" timestamp="1586813653960">
+    <state width="1237" height="118" key="GridCell.Tab.0.bottom" timestamp="1586882168045">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586813653960" />
-    <state width="1237" height="136" key="GridCell.Tab.0.center" timestamp="1586813653960">
+    <state width="1237" height="118" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586882168045" />
+    <state width="1237" height="118" key="GridCell.Tab.0.center" timestamp="1586882168045">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586813653960" />
-    <state width="1237" height="136" key="GridCell.Tab.0.left" timestamp="1586813653960">
+    <state width="1237" height="118" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586882168045" />
+    <state width="1237" height="118" key="GridCell.Tab.0.left" timestamp="1586882168045">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586813653960" />
-    <state width="1237" height="136" key="GridCell.Tab.0.right" timestamp="1586813653960">
+    <state width="1237" height="118" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586882168045" />
+    <state width="1237" height="118" key="GridCell.Tab.0.right" timestamp="1586882168045">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="136" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586813653960" />
-    <state x="142" y="3" key="SettingsEditor" timestamp="1586809453227">
+    <state width="1237" height="118" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586882168045" />
+    <state x="142" y="3" key="SettingsEditor" timestamp="1586878001594">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="142" y="3" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1586809453227" />
+    <state x="142" y="3" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1586878001594" />
     <state x="451" y="139" key="chooseDestDirectoryDialog" timestamp="1586768931646">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="451" y="139" key="chooseDestDirectoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1586768931646" />
-    <state x="269" y="57" width="742" height="606" key="find.popup" timestamp="1586809375451">
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1586877939231">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="269" y="57" width="742" height="606" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1586809375451" />
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1586877939231" />
+    <state x="269" y="57" width="742" height="606" key="find.popup" timestamp="1586882246403">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="269" y="57" width="742" height="606" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1586882246403" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1586766438571">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
