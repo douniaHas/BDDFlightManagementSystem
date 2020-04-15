@@ -2,13 +2,13 @@ package FlightManagment;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
-import cucumber.api.junit.Cucumber;
+import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 /**
  * Entry point for running the Cucumber tests in JUnit.
  */
-@RunWith(Cucumber.class)
+@RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 	plugin = {"pretty"},
 	snippets = SnippetType.CAMELCASE,

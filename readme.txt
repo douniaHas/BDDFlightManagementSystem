@@ -17,3 +17,12 @@ meme package
 -   On rajoute le code en TDD jusqu'à avoir tous les tests qui passent
 -   On verifie que la couverture de code est de 100%
 
+-   Executer Mvn verify
+-   Rapports Serenity presents dans le repertoire target/site/serenity -> afficher index.html
+-   Si index.html s'affiche mais avec des résultats à 0% alors que run CucumberTest donne 100%, il faudra essayer
+mvn serenity:aggregate
+
+
+
+
+

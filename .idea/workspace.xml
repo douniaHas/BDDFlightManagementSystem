@@ -3,7 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="84cefd91-b46b-44a9-b41d-58d27c24875e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bonus_policy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bonus_policy.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FlightManagment/CucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightManagment/CucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BDDFlightsManagementSystem-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/BDDFlightsManagementSystem-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/BusinessFlight.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/BusinessFlight.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/EconomyFlight.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/EconomyFlight.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Flight.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Flight.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Mileage.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Mileage.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Passenger.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/Passenger.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/PremiumFlight.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/FlightManagement/PremiumFlight.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightManagment/CucumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FlightManagment/CucumberTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +69,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/java-bdd-cucumber-gherkin-getting-started/07/demos/morning-fresh" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37011495" />
@@ -152,6 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586766381408</updated>
       <workItem from="1586766385451" duration="32098000" />
+      <workItem from="1586957374968" duration="3796000" />
     </task>
     <servers />
   </component>
@@ -190,26 +214,26 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="500" height="438" key="DebuggerActiveHint/0.0.1280.720@0.0.1280.720" timestamp="1586860567561" />
-    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1586845715653">
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1586960419443">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1586845715653" />
-    <state width="1237" height="159" key="GridCell.Tab.0.bottom" timestamp="1586876621108">
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1586960419443" />
+    <state width="1237" height="95" key="GridCell.Tab.0.bottom" timestamp="1586961602322">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="159" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586876621108" />
-    <state width="1237" height="159" key="GridCell.Tab.0.center" timestamp="1586876621108">
+    <state width="1237" height="95" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586961602322" />
+    <state width="1237" height="95" key="GridCell.Tab.0.center" timestamp="1586961602322">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="159" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586876621108" />
-    <state width="1237" height="159" key="GridCell.Tab.0.left" timestamp="1586876621108">
+    <state width="1237" height="95" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586961602322" />
+    <state width="1237" height="95" key="GridCell.Tab.0.left" timestamp="1586961602322">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="159" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586876621108" />
-    <state width="1237" height="159" key="GridCell.Tab.0.right" timestamp="1586876621108">
+    <state width="1237" height="95" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586961602322" />
+    <state width="1237" height="95" key="GridCell.Tab.0.right" timestamp="1586961602322">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="159" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586876621108" />
+    <state width="1237" height="95" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586961602322" />
     <state width="1237" height="167" key="GridCell.Tab.1.bottom" timestamp="1586860758261">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -260,6 +284,6 @@
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1586809391932" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BDDFlightsManagementSystem$CucumberTest.ic" NAME="CucumberTest Coverage Results" MODIFIED="1586874722373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BDDFlightsManagementSystem$CucumberTest.ic" NAME="CucumberTest Coverage Results" MODIFIED="1586960349503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
