@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Economy Flight Passengers Policy","Economy flight, usual passenger","SUCCESS","2020-04-20T18:15:57.2695008+02:00[Europe/Paris]","0.0","0.02"
+"Economy Flight Passengers Policy","Economy flight, VIP passenger","SUCCESS","2020-04-20T18:15:57.2916341+02:00[Europe/Paris]","0.0","0.0"

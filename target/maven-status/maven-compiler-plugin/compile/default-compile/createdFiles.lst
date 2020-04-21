@@ -1,6 +1,6 @@
 FlightManagement\BusinessFlight.class
 FlightManagement\EconomyFlight.class
-FlightManagement\Mileage.class
 FlightManagement\Passenger.class
-FlightManagement\Flight.class
 FlightManagement\PremiumFlight.class
+FlightManagement\Mileage.class
+FlightManagement\Flight.class

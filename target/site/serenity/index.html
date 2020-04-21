@@ -141,7 +141,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-04-2020 16:41</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-04-2020 16:18</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -156,7 +156,8 @@
                         <td width="375px" valign="top">
                             <div class="test-count-summary">
                                 <div class="test-count-title">
-                                0 test scenarios 
+                                22 test scenarios 
+                                    (including 12 rows of test data)
                                  |
                                     <a href="results.csv" title="Download CSV"> <i class="fa fa-download"
                                                                                     title="Download CSV"></i></a>
@@ -183,6 +184,54 @@
                                             <div class="container-fluid">
                                                 <div class="row">
                                                     <div class="col-sm-4">
+                                                            <div style="width:300px;"
+                                                                 class="chart-container automated-and-manual-results">
+                                                                <div class="ct-chart ct-square"></div>
+                                                            </div>
+                                                            <script>
+
+                                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                                // Our series array that contains series objects or in this case series data arrays
+
+                                                                var series = [{meta: 'Passing tests (automated)', value: 22}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+
+                                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
+                                                                // as you saw in the previous example
+                                                                var options = {
+                                                                    width: 350,
+                                                                    height: 300
+                                                                };
+
+
+                                                                new Chartist.Pie('.ct-chart', {
+                                                                    series: series,
+                                                                    labels: labels
+                                                                }, {
+                                                                    plugins: [Chartist.plugins.tooltip()],
+                                                                    donut: true,
+                                                                    donutWidth: 60,
+                                                                    donutSolid: true,
+                                                                    startAngle: 270,
+                                                                    showLabel: true
+                                                                }, options);
+
+
+                                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                                                                    new Chartist.Pie('.ct-chart', {
+                                                                        series: series,
+                                                                        labels: labels
+                                                                    }, {
+                                                                        plugins: [Chartist.plugins.tooltip()],
+                                                                        donut: true,
+                                                                        donutWidth: 60,
+                                                                        donutSolid: true,
+                                                                        startAngle: 270,
+                                                                        showLabel: true
+                                                                    }, options);
+                                                                });
+
+
+                                                            </script>
                                                     </div>
                                                     <div class="col-sm-8">
 
@@ -199,11 +248,12 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                    <td class="aggregate-result-count"><i
-                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
+                                                                    <td class="aggregate-result-count">
+                                                                        <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
+                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                <td class="automated-stats">22</td>
+                                                                <td class="automated-stats">100%</td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -255,7 +305,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats">22</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -277,11 +327,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
+                                                                <td>20s</td>
+                                                                <td>304ms</td>
                                                                 <td>0ms</td>
-                                                                <td>0ms</td>
-                                                                <td>0ms</td>
-                                                                <td>0ms</td>
-                                                                <td>0ms</td>
+                                                                <td>19s</td>
+                                                                <td>1s</td>
                                                             </tr>
                                                             </tbody>
                                                         </table>
@@ -307,29 +357,111 @@
                                                                     <tbody>
                                                                         <tr>
                                                                             <td>
-                                                                                    bonus policy
+                                                                                    <a href="f9b1f13d65d117fae78f7907d3afeb9e73b55e638986d474a7a7843101572be3.html">bonus policy</a>
                                                                             </td>
-                                                                            <td>0</td>
-                                                                            <td>0%</td>
+                                                                            <td>12</td>
+                                                                            <td>100%</td>
                                                                             <td>
-                                                                                    <i class="fa fa-stop-circle-o pending-icon"></i>
+                                                                                    <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
                                                                             </td>
                                                                             <td>
                                                                                 <div class="progress">
+                                                                                        <div class="progress-bar"
+                                                                                             role="progressbar"
+                                                                                             style="width: 100%; background-color: #30cb23"
+                                                                                             aria-valuenow="12"
+                                                                                             title="100% success"
+                                                                                             aria-valuemin="0"
+                                                                                             aria-valuemax="100">
+                                                                                        </div>
                                                                                 </div>
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
                                                                             <td>
-                                                                                    Passengers Policy
+                                                                                    <a href="6ffd841d1a8d2e155d18b9ecaeda12303b718105fcb85b296976bf5f02a3fb3e.html">Companies available policy</a>
                                                                             </td>
-                                                                            <td>0</td>
-                                                                            <td>0%</td>
+                                                                            <td>1</td>
+                                                                            <td>100%</td>
                                                                             <td>
-                                                                                    <i class="fa fa-stop-circle-o pending-icon"></i>
+                                                                                    <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
                                                                             </td>
                                                                             <td>
                                                                                 <div class="progress">
+                                                                                        <div class="progress-bar"
+                                                                                             role="progressbar"
+                                                                                             style="width: 100%; background-color: #30cb23"
+                                                                                             aria-valuenow="1"
+                                                                                             title="100% success"
+                                                                                             aria-valuemin="0"
+                                                                                             aria-valuemax="100">
+                                                                                        </div>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                    <a href="23bc7a5313df8714a00df61654d6cf56f3ac20fcf63fe1bf456336c0a784b0e4.html">Economy Flight Passengers Policy</a>
+                                                                            </td>
+                                                                            <td>2</td>
+                                                                            <td>100%</td>
+                                                                            <td>
+                                                                                    <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="progress">
+                                                                                        <div class="progress-bar"
+                                                                                             role="progressbar"
+                                                                                             style="width: 100%; background-color: #30cb23"
+                                                                                             aria-valuenow="2"
+                                                                                             title="100% success"
+                                                                                             aria-valuemin="0"
+                                                                                             aria-valuemax="100">
+                                                                                        </div>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                    <a href="78c434653b611cffddb014894338be68abcea1ab22edf706bce3aa02e5f253fe.html">Passengers Policy</a>
+                                                                            </td>
+                                                                            <td>6</td>
+                                                                            <td>100%</td>
+                                                                            <td>
+                                                                                    <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="progress">
+                                                                                        <div class="progress-bar"
+                                                                                             role="progressbar"
+                                                                                             style="width: 100%; background-color: #30cb23"
+                                                                                             aria-valuenow="6"
+                                                                                             title="100% success"
+                                                                                             aria-valuemin="0"
+                                                                                             aria-valuemax="100">
+                                                                                        </div>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                    <a href="6aee00aa25071dfed4e878066e224d1aeb90f7e9ae4fe5afecff9d395cd34ddf.html">Points from merchandise on board Policy</a>
+                                                                            </td>
+                                                                            <td>1</td>
+                                                                            <td>100%</td>
+                                                                            <td>
+                                                                                    <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="progress">
+                                                                                        <div class="progress-bar"
+                                                                                             role="progressbar"
+                                                                                             style="width: 100%; background-color: #30cb23"
+                                                                                             aria-valuenow="1"
+                                                                                             title="100% success"
+                                                                                             aria-valuemin="0"
+                                                                                             aria-valuemax="100">
+                                                                                        </div>
                                                                                 </div>
                                                                             </td>
                                                                         </tr>
@@ -347,7 +479,178 @@
                                                     <div class="col-sm-12">
                                                         <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
 
-                                            No automated tests were executed
+                                            <table class="scenario-result-table table" id="scenario-results">
+                                                <thead>
+                                                <tr>
+                                                    <th>feature</th>
+                                                    <th class="test-name-column">Scenario</th>
+                                                    <th>Steps</th>
+                                                    <th>Start Time</th>
+                                                    <th>Duration</th>
+                                                    <th>Result</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="657450538c21bc10bb6babc2c159b0da17c4bcaa63e109ccb1356f9e12d4e68b.html">bonus policy</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="49a3f5b0ff11c5bd16d317e2a97d286b4853d52b18d6a68cf65cfdf7d94d1234.html">Usual passenger bonus policy</a>
+                                                                   (6 examples)
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>18:15:57</td>
+                                                    <td>00:00</td>
+                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="657450538c21bc10bb6babc2c159b0da17c4bcaa63e109ccb1356f9e12d4e68b.html">bonus policy</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="e8f0596f95c3ea403bdc827c09aec33c300a66eaf265eae6125169d0e34427f2.html">VIP passenger bonus policy</a>
+                                                                   (6 examples)
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>18:15:57</td>
+                                                    <td>00:00</td>
+                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="00aaf47610524f33a60c0ede9eb487f70764e723c45458c007888faaa5b768e4.html">Companies available policy</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="6e139985409f48af6cd64963ba77e2be941bc3e692fd083427b79052af18b207.html">A usual customer wants to buy a ticket for a flight to a destination</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>18:15:57</td>
+                                                    <td> </td>
+                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="638f04aad14711bebbb42873ef6b89ef8a20f4a4f419183f18eb9310fe744ab3.html">Economy Flight Passengers Policy</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="84f4c919b43a74635f5653519da55c1fd256afbb3503abd369f7929ee642ca09.html">Economy flight, usual passenger</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>18:15:57</td>
+                                                    <td>00:00</td>
+                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="638f04aad14711bebbb42873ef6b89ef8a20f4a4f419183f18eb9310fe744ab3.html">Economy Flight Passengers Policy</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="eb9cd3c6ac795dd7901bc05a6461edbcb5408b97a8b160da2e6538c766d0b897.html">Economy flight, VIP passenger</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>18:15:57</td>
+                                                    <td> </td>
+                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="0b181c5c36aa75c01bdb0936ed1c01f835d538efeeb17763fd0637582c371195.html">Passengers Policy</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="e7eb3a1a4fdb1dc3b2d2d988b48aa34be565e03adf5652e7bab463245021abad.html">Economy flight, usual passenger</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>18:15:57</td>
+                                                    <td>00:00</td>
+                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="0b181c5c36aa75c01bdb0936ed1c01f835d538efeeb17763fd0637582c371195.html">Passengers Policy</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="b4016649851f9fa22f67ccb36384e30ce44ec292ad004a2e8b2eef3a2a776a9d.html">Economy flight, VIP passenger</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>18:15:57</td>
+                                                    <td> </td>
+                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="0b181c5c36aa75c01bdb0936ed1c01f835d538efeeb17763fd0637582c371195.html">Passengers Policy</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="e3ffffd5f434d55d9f019611ca6e278eeba52f431d396f0d87c849a9f1400a37.html">Business flight, usual passenger</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>18:15:57</td>
+                                                    <td>00:00</td>
+                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="0b181c5c36aa75c01bdb0936ed1c01f835d538efeeb17763fd0637582c371195.html">Passengers Policy</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="25f103e4918d6352536af5ca9ced6641a60b3a04565db8f59cfa4d8076615f49.html">Premium flight, VIP passenger</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>18:15:57</td>
+                                                    <td>00:00</td>
+                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="0b181c5c36aa75c01bdb0936ed1c01f835d538efeeb17763fd0637582c371195.html">Passengers Policy</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="92c2219d45302178283f6a3332bb360c2ce7b60e7eeca2c7daa98085f869ab56.html">Business flight, VIP passenger</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>18:15:57</td>
+                                                    <td> </td>
+                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="0b181c5c36aa75c01bdb0936ed1c01f835d538efeeb17763fd0637582c371195.html">Passengers Policy</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="40477dd5e20bed2e25be9511e0e67323c72c653c6ffd10762c9443d806d5e2ba.html">Premium flight, usual passenger</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>18:15:57</td>
+                                                    <td> </td>
+                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="04617d91dc54f2b930aac06d6fbfea661f26675814bbeb1b354edeaff9e950d3.html">Points from merchandise on board Policy</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="35cc10c97a61a4f428cd676f4cffac744f93e53b5c8801be7d52e7a23bb797ae.html">Business flight, VIP passenger</a>
+                                                    </td>
+                                                    <td>5</td>
+                                                    <td>18:15:57</td>
+                                                    <td>00:19</td>
+                                                    <td><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
 
                                                     </div>
                                                 </div>

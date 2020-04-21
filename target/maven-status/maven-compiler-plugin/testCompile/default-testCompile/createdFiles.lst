@@ -1,3 +1,4 @@
-FlightManagment\BonusPolicy.class
 FlightManagment\PassengersPolicy.class
+FlightManagment\BonusPolicy.class
+FlightManagment\CompaniesAvailablePolicy.class
 FlightManagment\CucumberTest.class

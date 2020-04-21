@@ -4,22 +4,37 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Flight {
+    protected ProductStore productStore;
     private String id;
-<span class="nc" id="L8">    private List&lt;Passenger&gt; passengers = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L9">    private List&lt;Passenger&gt; passengers = new ArrayList&lt;&gt;();</span>
+
+
+<span class="nc" id="L12">    private List&lt;String&gt; destinations  = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L13">    private List&lt;String&gt; companies  = new ArrayList&lt;&gt;();</span>
 
     public abstract boolean addPassenger(Passenger passenger);
     public abstract boolean removePassenger(Passenger passenger);
 
-<span class="nc" id="L13">    public Flight(String id) {</span>
-<span class="nc" id="L14">        this.id = id;</span>
-<span class="nc" id="L15">    }</span>
+<span class="nc" id="L18">    public Flight(String id) {</span>
+<span class="nc" id="L19">        this.id = id;</span>
+<span class="nc" id="L20">    }</span>
 
     public List&lt;Passenger&gt; getPassengers() {
-<span class="nc" id="L18">        return passengers;</span>
+<span class="nc" id="L23">        return passengers;</span>
+    }
+    public List&lt;String&gt; getDestinations() {
+<span class="nc" id="L26">        return destinations;</span>
+    }
+    public List&lt;String&gt; getCompanies() {
+<span class="nc" id="L29">        return companies;</span>
     }
 
     public String getId(){
-<span class="nc" id="L22">        return id;</span>
+<span class="nc" id="L33">        return id;</span>
     }
+
+    public void addProductStore(ProductStore productsStore){
+<span class="nc" id="L37">        this.productStore = productsStore;</span>
+<span class="nc" id="L38">    };</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

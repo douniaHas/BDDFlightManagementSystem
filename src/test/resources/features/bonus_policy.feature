@@ -6,13 +6,13 @@ Feature: bonus policy
     When the usual passenger travels <mileage1> and <mileage2> and <mileage3>
     Then the bonus points of the usual passenger should be <points>
     Examples:
-      | mileage1 | mileage2 | mileage3 | points |
-      | 430      | 220      | 670      | 66     |
-      |     349 |     319 |    623 |     64 |
-      |     312 |     356 |    135 |     40 |
-      |     223 |     786 |    503 |     75 |
-      |     482 |      98 |    591 |     58 |
-      |     128 |     176 |    304 |     30 |
+      | mileage1 | mileage2| mileage3| points |
+      |     430  |     220 |    670  |     66 |
+      |     349  |     319 |    623  |     64 |
+      |     312  |     356 |    135  |     40 |
+      |     223  |     786 |    503  |     75 |
+      |     482  |      98 |    591  |     58 |
+      |     128  |     176 |    304  |     30 |
 
   Scenario Outline: VIP passenger bonus policy
     Given There is a VIP passenger with a mileage

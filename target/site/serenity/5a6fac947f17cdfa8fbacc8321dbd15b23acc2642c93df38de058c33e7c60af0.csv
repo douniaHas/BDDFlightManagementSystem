@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Passengers Policy","Economy flight, usual passenger","SUCCESS","2020-04-20T18:15:57.2916341+02:00[Europe/Paris]","0.0","0.02"
+"Passengers Policy","Economy flight, VIP passenger","SUCCESS","2020-04-20T18:15:57.3072658+02:00[Europe/Paris]","0.0","0.0"
+"Passengers Policy","Business flight, usual passenger","SUCCESS","2020-04-20T18:15:57.3072658+02:00[Europe/Paris]","0.0","0.02"
+"Passengers Policy","Premium flight, VIP passenger","SUCCESS","2020-04-20T18:15:57.3228879+02:00[Europe/Paris]","0.0","0.02"
+"Passengers Policy","Business flight, VIP passenger","SUCCESS","2020-04-20T18:15:57.3228879+02:00[Europe/Paris]","0.0","0.0"
+"Passengers Policy","Premium flight, usual passenger","SUCCESS","2020-04-20T18:15:57.3385087+02:00[Europe/Paris]","0.0","0.0"

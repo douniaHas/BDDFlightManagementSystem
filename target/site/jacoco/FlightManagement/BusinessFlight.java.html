@@ -4,18 +4,22 @@ public class BusinessFlight extends Flight {
     @Override
     public boolean addPassenger(Passenger passenger) {
 <span class="nc bnc" id="L6" title="All 2 branches missed.">        if(passenger.isVip()){</span>
-<span class="nc" id="L7">            return getPassengers().add(passenger);</span>
+<span class="nc bnc" id="L7" title="All 2 branches missed.">            if(!getCompanies().isEmpty()){</span>
+<span class="nc" id="L8">                passenger.setCompanyChoice(true);</span>
+            }
+<span class="nc" id="L10">            return getPassengers().add(passenger);</span>
         }
-<span class="nc" id="L9">        return false;</span>
+<span class="nc" id="L12">        return false;</span>
     }
 
     @Override
     public boolean removePassenger(Passenger passenger) {
-<span class="nc" id="L14">        return false;</span>
+<span class="nc" id="L17">        return false;</span>
     }
 
     public BusinessFlight(String id) {
-<span class="nc" id="L18">        super(id);</span>
-<span class="nc" id="L19">    }</span>
+<span class="nc" id="L21">        super(id);</span>
+<span class="nc" id="L22">    }</span>
+
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

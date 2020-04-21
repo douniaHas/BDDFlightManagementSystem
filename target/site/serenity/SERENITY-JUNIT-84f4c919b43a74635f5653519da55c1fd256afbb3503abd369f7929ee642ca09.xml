@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Economy Flight Passengers Policy" skipped="0" tests="2" time="0.02" timestamp="2020-04-20 06:15:57"><testcase name="Economy flight, usual passenger"/><testcase name="Economy flight, VIP passenger"/></testsuite>

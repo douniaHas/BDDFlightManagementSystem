@@ -4,6 +4,9 @@ public class BusinessFlight extends Flight {
     @Override
     public boolean addPassenger(Passenger passenger) {
         if(passenger.isVip()){
+            if(!getCompanies().isEmpty()){
+                passenger.setCompanyChoice(true);
+            }
             return getPassengers().add(passenger);
         }
         return false;
@@ -17,4 +20,5 @@ public class BusinessFlight extends Flight {
     public BusinessFlight(String id) {
         super(id);
     }
+
 }
